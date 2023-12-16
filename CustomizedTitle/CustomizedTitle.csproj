@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\app.ico" />
+    <None Remove="Resources\Images\close.png" />
+    <None Remove="Resources\Images\maximize.png" />
+    <None Remove="Resources\Images\minimize.png" />
+    <None Remove="Resources\Images\restore.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\app.ico" />
+    <Resource Include="Resources\Images\close.png" />
+    <Resource Include="Resources\Images\maximize.png" />
+    <Resource Include="Resources\Images\minimize.png" />
+    <Resource Include="Resources\Images\restore.png" />
+  </ItemGroup>
+
+</Project>
